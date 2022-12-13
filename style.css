@@ -1,0 +1,55 @@
+.Hero
+{ margin-top: 200px;
+   margin-left: auto;
+   margin-right: auto;
+    height: 180px;
+    box-shadow: 0px 0px 3px;
+    width: 400px;
+    text-align: center;
+    padding-top: 60px;
+   background-color: white;
+   border-radius: 5px;
+}
+.btn
+{
+    background-color:skyblue;
+    color: white;
+    text-decoration: solid;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 120px;
+    margin-top: 7px;
+}
+.modal
+{  position: fixed;
+     top:0;
+     left:0;
+     margin-top: 200px;
+    margin-left:  182px;
+     height: 160px;
+     box-shadow: 0px 0px 3px;
+     width: 500px;
+     visibility:hidden;
+     display: flex;
+     justify-content: space-around;
+    padding-top: 60px;
+    background-color: white;
+    border-radius: 5px;  
+}
+
+.modal-hide
+{
+    visibility: visible;
+}
+.btn-close
+{  position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
